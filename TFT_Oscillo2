@@ -45,8 +45,8 @@ const int LCD_HEIGHT = 240;
 const int SAMPLES = 270;
 const int DOTS_DIV = 30;
 
-const int ad_sw = 6;                    // Analog 3 pin for switches
-const int ad_ch0 = 7;                   // Analog 4 pin for channel 0
+const int ad_sw = 3;                    // Analog 3 pin for switches
+const int ad_ch0 = 4;                   // Analog 4 pin for channel 0
 const int ad_ch1 = 5;                   // Analog 5 pin for channel 1
 const unsigned long VREF[] = {150, 300, 750, 1500, 3000}; // reference voltage 5.0V ->  150 :   1V/div range (100mV/dot)
                                         // It means 5.0 * DOTS_DIV = 150. Use 4.9 if reference voltage is 4.9[V]
