@@ -20,7 +20,7 @@ TFTLCD tft(LCD_CS, LCD_CD, LCD_WR, LCD_RD, LCD_RESET);
 
 
 #include <Adafruit_GFX.h>    // Core graphics library
-#include "SWTFT.h" // Hardware-specific library
+#include "SWTFT.h" // Hardware-specific library: https://github.com/Smoke-And-Wires/TFT-Shield-Example-Code
 
 
 #define	BLACK   0x0000
